@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@types/react": "^18",
-    "@w3ux/types": "^1.0.0",
+    "@w3ux/types-source": "git@github.com:ltfschoen/w3ux-library.git#head=tangle&workspace=@w3ux/types-source",
     "react": "^18",
     "tsup": "^8.3.5",
     "vitest": "^1.6.0"

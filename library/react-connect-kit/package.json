@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "@polkagate/extension-dapp": "^0.48.2",
-    "@w3ux/extension-assets": "ltfschoen/w3ux-library#tangle",
-    "@w3ux/hooks": "ltfschoen/w3ux-library#tangle",
-    "@w3ux/utils": "ltfschoen/w3ux-library#tangle"
+    "@w3ux/extension-assets-source": "git@github.com:ltfschoen/w3ux-library.git#head=tangle&workspace=@w3ux/extension-assets-source",
+    "@w3ux/hooks-source": "git@github.com:ltfschoen/w3ux-library.git#head=tangle&workspace=@w3ux/hooks-source",
+    "@w3ux/utils-source": "git@github.com:ltfschoen/w3ux-library.git#head=tangle&workspace=@w3ux/utils-source"
   },
   "devDependencies": {
     "@types/react": "^18",
-    "@w3ux/types": "ltfschoen/w3ux-library#tangle",
+    "@w3ux/types-source": "git@github.com:ltfschoen/w3ux-library.git#head=tangle&workspace=@w3ux/types-source",
     "gulp": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-strip-comments": "^2.6.0",

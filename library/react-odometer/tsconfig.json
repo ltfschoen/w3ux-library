@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  // "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": "./src",
     "rootDir": "./src",
@@ -11,6 +11,10 @@
     "sourceMap": false,
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": false,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
   },
